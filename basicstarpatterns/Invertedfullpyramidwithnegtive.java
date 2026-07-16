@@ -17,12 +17,8 @@ public class Invertedfullpyramidwithnegtive{
                 System.out.print("* ");
 
                 
-
             }
 
-
-
-        
         System.out.println();
 
         }
@@ -31,7 +27,6 @@ public class Invertedfullpyramidwithnegtive{
     }
 
 }
-
 
 
 
