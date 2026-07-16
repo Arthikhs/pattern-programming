@@ -162,19 +162,19 @@ Input: n=5
 ---
 
 ### 8. Full Pyramid (Negative / Even count)
-**File:** `Fullpyramidnegative.java`  
+**File:** `Fullpyramidwithnegative.java`  
 **Input:** size `n`
 
-> Same visual output as Fullpyramidwithpositive — uses `k <= (2*i+1)` loop condition.
+> Uses `k < (2*i+1)` — prints one fewer star per row compared to the positive version.
 
 ```
 Input: n=5
 
-        * * *
-      * * * * *
-    * * * * * * *
-  * * * * * * * * *
-* * * * * * * * * * *
+        *
+      * * *
+    * * * * *
+  * * * * * * *
+* * * * * * * * *
 ```
 
 ---
