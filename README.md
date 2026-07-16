@@ -88,10 +88,10 @@ Input: n=4
 ```
 Input: n=4, m=6
 
-x x x x x x
-x           x
-x           x
-x x x x x x
+xxxxxx
+x    x
+x    x
+xxxxxx
 ```
 
 ---
@@ -104,9 +104,9 @@ x x x x x x
 Input: n=5
 
 x x x x x
-x         x
-x         x
-x         x
+x       x
+x       x
+x       x
 x x x x x
 ```
 
