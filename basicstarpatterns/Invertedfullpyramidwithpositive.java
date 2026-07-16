@@ -8,7 +8,7 @@ public class Invertedfullpyramidwithpositive {
             for (int j = 0; j < n-i-1; j++) {
                 System.out.print("  ");
             }
-            for (int k = 0; k <= (2*i+1); k++) {
+            for (int k = 0; k < (2*i+2); k++) {
                 System.out.print("* ");
             }
             System.out.println();
