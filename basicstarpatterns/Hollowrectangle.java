@@ -8,11 +8,12 @@ Scanner scan = new Scanner(System.in);
         for(int i =1;i<=n;i++){
             for(int j=1;j<=m;j++){
                 if(i == 1||  i == n|| j ==1 || j ==m){
-                System.out.print("x ");
+                System.out.print("x");
                 }
                 else{
+
             
-            System.out.print("  ");
+            System.out.print(" ");
                 }
             }
                 System.out.println();

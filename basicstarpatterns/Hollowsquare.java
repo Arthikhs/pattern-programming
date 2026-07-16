@@ -11,7 +11,7 @@ Scanner scan = new Scanner(System.in);
                 }
                 else{
             
-            System.out.print("  ");
+            System.out.print(" ");
                 }
             }
                 System.out.println();
