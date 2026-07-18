@@ -1,6 +1,6 @@
 # ⭐ Java Star & Pattern Programs
 
-A collection of **14 Java pattern programs** using nested loops, covering rectangles, pyramids, hollow shapes, and inverted patterns.
+A collection of **26 Java pattern programs** using nested loops, covering rectangles, pyramids, hollow shapes, diamonds, and joined shapes.
 
 ---
 
@@ -22,7 +22,19 @@ pattern programs/
     ├── Invertedrighthalfpyramid.java
     ├── Invertedlefthalgpyramid.java
     ├── Invertedfullpyramidwithpositive.java
-    └── Invertedfullpyramidwithnegtive.java
+    ├── Invertedfullpyramidwithnegtive.java
+    ├── Hollowpyramid.java
+    ├── InvrtedHollowpyramid.java
+    ├── fullholowpyramidwithpositive.java
+    ├── fullinvetedholowpyramidwithpositive.java
+    ├── diamond.java
+    ├── hallowdiamond.java
+    ├── crossdiamte.java
+    ├── jion.java
+    ├── jionplus.java
+    ├── jiontshape.java
+    ├── jiontwotringlewithonelin1.java
+    └── jiontwotringlewithonelin2.java
 ```
 
 ---
@@ -140,7 +152,6 @@ Input: n=5
         x x x 
       x x x x 
     x x x x x 
-  x x x x x x 
 ```
 
 ---
@@ -164,8 +175,6 @@ Input: n=5
 ### 8. Full Pyramid (Negative / Even count)
 **File:** `Fullpyramidwithnegative.java`  
 **Input:** size `n`
-
-> Uses `k < (2*i+1)` — prints one fewer star per row compared to the positive version.
 
 ```
 Input: n=5
@@ -265,8 +274,6 @@ Input: n=5
 **File:** `Invertedfullpyramidwithnegtive.java`  
 **Input:** size `n`
 
-> Uses `k < (2*i+1)` — prints one fewer star per row compared to the positive version.
-
 ```
 Input: n=5
 
@@ -279,15 +286,225 @@ Input: n=5
 
 ---
 
+### 15. Hollow Pyramid
+**File:** `Hollowpyramid.java`  
+**Input:** size `n`
+
+```
+Input: n=5
+
+        x 
+      x   x 
+    x       x 
+  x           x 
+x x x x x x x x x 
+```
+
+---
+
+### 16. Inverted Hollow Pyramid
+**File:** `InvrtedHollowpyramid.java`  
+**Input:** size `n`
+
+```
+Input: n=5
+
+x x x x x x x x x 
+  x           x 
+    x       x 
+      x   x 
+        x 
+```
+
+---
+
+### 17. Full Hollow Pyramid (Positive)
+**File:** `fullholowpyramidwithpositive.java`  
+**Input:** size `n`
+
+```
+Input: n=5
+
+        x x 
+      x     x 
+    x         x 
+  x             x 
+x x x x x x x x x x 
+```
+
+---
+
+### 18. Inverted Full Hollow Pyramid (Positive)
+**File:** `fullinvetedholowpyramidwithpositive.java`  
+**Input:** size `n`
+
+```
+Input: n=5
+
+x x x x x x x x x x 
+  x             x 
+    x         x 
+      x     x 
+        x x 
+```
+
+---
+
+### 19. Diamond
+**File:** `diamond.java`  
+**Input:** size `n`
+
+```
+Input: n=4
+
+      * 
+    * * * 
+  * * * * * 
+* * * * * * * 
+  * * * * * 
+    * * * 
+      * 
+```
+
+---
+
+### 20. Hollow Diamond
+**File:** `hallowdiamond.java`  
+**Input:** size `n`
+
+```
+Input: n=4
+
+      * 
+    *   * 
+  *       * 
+*           * 
+  *       * 
+    *   * 
+      * 
+```
+
+---
+
+### 21. Cross Diamond
+**File:** `crossdiamte.java`  
+**Input:** size `n`
+
+```
+Input: n=4
+
+      * 
+    * * * 
+  *   *   * 
+* * * * * * * 
+  *   *   * 
+    * * * 
+      * 
+```
+
+---
+
+### 22. Joined Diamond (Hollow with Center Line)
+**File:** `jion.java`  
+**Input:** size `n`
+
+```
+Input: n=4
+
+      * 
+    * * * 
+  *   *   * 
+* * * * * * * 
+  *   *   * 
+    * * * 
+      * 
+```
+
+---
+
+### 23. Joined Plus Shape
+**File:** `jionplus.java`  
+**Input:** size `n`
+
+```
+Input: n=4
+
+      * 
+      * 
+      * 
+* * * * * * * 
+      * 
+      * 
+      * 
+```
+
+---
+
+### 24. Joined T-Shape
+**File:** `jiontshape.java`  
+**Input:** size `n`
+
+```
+Input: n=4
+
+      * 
+      * 
+      * 
+* * * * * * * 
+      * 
+      * 
+      * 
+```
+
+---
+
+### 25. Joined Two Triangles with One Line (Style 1)
+**File:** `jiontwotringlewithonelin1.java`  
+**Input:** size `n`
+
+```
+Input: n=4
+
+      * 
+    *   * 
+  *       * 
+* * * * * * * 
+  *       * 
+    *   * 
+      * 
+```
+
+---
+
+### 26. Joined Two Triangles with One Line (Style 2)
+**File:** `jiontwotringlewithonelin2.java`  
+**Input:** size `n`
+
+```
+Input: n=4
+
+      * 
+    * * * 
+  *   *   * 
+*     *     * 
+  *   *   * 
+    * * * 
+      * 
+```
+
+---
+
 ## 🧠 Concepts Used
 
 | Concept | Used In |
 |---|---|
 | Nested `for` loops | All patterns |
 | `Scanner` for input | All patterns |
-| Space padding | Pyramids, Left Half |
-| Hollow border logic | Hollow Square/Rectangle |
+| Space padding | Pyramids, Left Half, Diamonds |
+| Hollow border logic | Hollow Square/Rectangle/Pyramid/Diamond |
 | Odd/Even star count | Full & Inverted Pyramids |
+| Diamond shape logic | Diamond, Hollow Diamond, Cross Diamond |
+| Joined shape logic | jion, jionplus, jiontshape, jiontwotringlwithonelin |
 
 ---
 
