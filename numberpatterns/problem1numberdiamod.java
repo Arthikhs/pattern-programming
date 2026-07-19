@@ -6,7 +6,7 @@ public class problem1numberdiamod {
         int n= scan.nextInt();
         for(int i =0;i<n;i++){
             for(int j =0;j<n-i-1;j++){
-                System.out.print("  ");
+                System.out.print(" ");
             }
 
                  for (int k = 1; k <=  i + 1; k++) {
