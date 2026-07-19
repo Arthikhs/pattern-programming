@@ -1,9 +1,10 @@
-package basicstarpatterns;
+package numberpatterns;
+
 
 
 import java.util.Scanner;
 
-public class diamond {
+public class problem10  {
 
     public static void main(String[] args) {
 
@@ -18,7 +19,7 @@ public class diamond {
             }
 
             for (int k = 0; k < 2 * i + 1; k++) {
-                System.out.print("* ");
+                System.out.print((k+1) + " ");
             }
 
             System.out.println();
@@ -31,11 +32,8 @@ public class diamond {
                 System.out.print("  ");
             }
 
-            for (int k = 0; k <  i + 1; k++) {
-                System.out.print(k);
-            }
-            for (int l = i; l >=0;l--) {
-                System.out.print(l);
+            for (int k = 0; k < 2 * i + 1; k++) {
+                System.out.print((k+1) + " ");
             }
 
             System.out.println();
