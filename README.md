@@ -1,6 +1,6 @@
 # ⭐ Java Star & Number Pattern Programs
 
-A collection of **42 Java pattern programs** using nested loops, covering rectangles, pyramids, hollow shapes, diamonds, joined shapes, butterfly, sandglass, plus, X patterns, and number patterns.
+A collection of **53 Java pattern programs** using nested loops, covering rectangles, pyramids, hollow shapes, diamonds, joined shapes, butterfly, sandglass, plus, X patterns, and number patterns.
 
 ---
 
@@ -51,8 +51,18 @@ pattern programs/
     ├── problem6.java
     ├── problem7.java
     ├── problem8.java
-    ├── problm9.java
-    └── problem10.java
+    ├── problem9.java
+    ├── problem10.java
+    ├── problem11.java
+    ├── problem12.java
+    ├── problem13.java
+    ├── problem14.java
+    ├── binarytriangle.java
+    ├── Floydstriangle.java
+    ├── pascalstriangle.java
+    ├── sanakenumberpattern.java
+    ├── spiralnumber.java
+    └── zigzagnumberpattern.java
 ```
 
 ---
@@ -724,7 +734,7 @@ Input: n=4
 ---
 
 ### 42. Number Diamond (Full - Same Row Number)
-**File:** `problm9.java` | **Input:** size `n`
+**File:** `problem9.java` | **Input:** size `n`
 
 ```
 Input: n=4
@@ -757,6 +767,144 @@ Input: n=4
 
 ---
 
+### 44. Hollow Number Pyramid
+**File:** `problem11.java` | **Input:** size `n`
+
+```
+Input: n=4
+
+      1
+    2   2
+  3       3
+4 4 4 4 4 4 4
+```
+
+---
+
+### 45. Inverted Hollow Number Pyramid
+**File:** `problem12.java` | **Input:** size `n`
+
+```
+Input: n=4
+
+4 4 4 4 4 4 4
+  3       3
+    2   2
+      1
+```
+
+---
+
+### 46. Binary Rectangle
+**File:** `problem13.java` | **Input:** rows `n`, columns `m`
+
+```
+Input: n=3, m=4
+
+1 0 1 0
+0 1 0 1
+1 0 1 0
+```
+
+---
+
+### 47. Binary Rectangle (Alternate Start)
+**File:** `problem14.java` | **Input:** rows `n`, columns `m`
+
+```
+Input: n=3, m=4
+
+1 0 1 0
+0 1 0 1
+1 0 1 0
+```
+
+---
+
+### 48. Binary Triangle
+**File:** `binarytriangle.java` | **Input:** size `n`
+
+```
+Input: n=4
+
+1
+0 1
+1 0 1
+0 1 0 1
+```
+
+---
+
+### 49. Floyd's Triangle
+**File:** `Floydstriangle.java` | **Input:** size `n`
+
+```
+Input: n=4
+
+1
+2 3
+4 5 6
+7 8 9 10
+```
+
+---
+
+### 50. Pascal's Triangle
+**File:** `pascalstriangle.java` | **Input:** size `n`
+
+```
+Input: n=4
+
+      1
+    1   1
+  1   2   1
+1   3   3   1
+```
+
+---
+
+### 51. Snake Number Pattern
+**File:** `sanakenumberpattern.java` | **Input:** rows `n`, columns `m`
+
+```
+Input: n=3, m=4
+
+1  2  3  4
+8  7  6  5
+9  10 11 12
+```
+
+---
+
+### 52. Spiral Number Pattern
+**File:** `spiralnumber.java` | **Input:** size `n`
+
+```
+Input: n=3
+
+3 3 3 3 3
+3 2 2 2 3
+3 2 1 2 3
+3 2 2 2 3
+3 3 3 3 3
+```
+
+---
+
+### 53. Zigzag Number Pattern
+**File:** `zigzagnumberpattern.java` | **Input:** size `n`
+
+```
+Input: n=4
+
+1
+3 2
+4 5 6
+10 9 8 7
+```
+
+---
+
 ## 🧠 Concepts Used
 
 | Concept | Used In |
@@ -774,6 +922,13 @@ Input: n=4
 | Number sequences | All numberpatterns |
 | Continuous counters | problem4 |
 | Palindrome rows | problem1numberdiamod |
+| Binary alternation | binarytriangle, problem13, problem14 |
+| Floyd's sequence | Floydstriangle |
+| Pascal's triangle | pascalstriangle |
+| Snake traversal | sanakenumberpattern |
+| Spiral/distance logic | spiralnumber |
+| Zigzag traversal | zigzagnumberpattern |
+| Hollow number pyramid | problem11, problem12 |
 
 ---
 
