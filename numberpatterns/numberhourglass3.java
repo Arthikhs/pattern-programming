@@ -1,6 +1,6 @@
 package numberpatterns;
 import java.util.Scanner;
-public class numberhourglass2 {
+public class numberhourglass3 {
     
     public static void main(String[] args) {
 
@@ -15,7 +15,7 @@ public class numberhourglass2 {
                  System.out.print(k + " ");
 
             }
-            for(int l =i+1;l<=n;l++){
+            for(int l =i+2;l<=n;l++){
                  System.out.print(l + " ");
             }
        System.out.println();
@@ -30,7 +30,7 @@ public class numberhourglass2 {
         System.out.print(k + " ");
     }
 
-    for (int l = i + 1; l <= n; l++) {
+    for (int l = i + 2; l <= n; l++) {
         System.out.print(l + " ");
     }
 
