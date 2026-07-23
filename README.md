@@ -1,6 +1,6 @@
 # ⭐ Java Star & Number Pattern Programs
 
-A collection of **53 Java pattern programs** using nested loops, covering rectangles, pyramids, hollow shapes, diamonds, joined shapes, butterfly, sandglass, plus, X patterns, and number patterns.
+A collection of **56 Java pattern programs** using nested loops, covering rectangles, pyramids, hollow shapes, diamonds, joined shapes, butterfly, sandglass, plus, X patterns, and number patterns.
 
 ---
 
@@ -62,7 +62,10 @@ pattern programs/
     ├── pascalstriangle.java
     ├── sanakenumberpattern.java
     ├── spiralnumber.java
-    └── zigzagnumberpattern.java
+    ├── zigzagnumberpattern.java
+    ├── Butterflypatternnumber.java
+    ├── numberhourglass4.java
+    └── numberhourglass5.java
 ```
 
 ---
@@ -905,6 +908,57 @@ Input: n=4
 
 ---
 
+### 54. Butterfly Number Pattern
+**File:** `Butterflypatternnumber.java` | **Input:** size `n`
+
+```
+Input: n=4
+
+1             1
+1 2         2 1
+1 2 3     3 2 1
+1 2 3 4 4 3 2 1
+1 2 3     3 2 1
+1 2         2 1
+1             1
+```
+
+---
+
+### 55. Number Hourglass (Descending-Ascending)
+**File:** `numberhourglass4.java` | **Input:** size `n`
+
+```
+Input: n=4
+
+4 3 2 1 1 2 3 4
+  4 3 2 2 3 4
+    4 3 3 4
+      4 4
+    4 3 3 4
+  4 3 2 2 3 4
+4 3 2 1 1 2 3 4
+```
+
+---
+
+### 56. Number Hourglass (Ascending-Descending)
+**File:** `numberhourglass5.java` | **Input:** size `n`
+
+```
+Input: n=4
+
+1 2 3 4 4 3 2 1
+  2 3 4 4 3 2
+    3 4 4 3
+      4 4
+    3 4 4 3
+  2 3 4 4 3 2
+1 2 3 4 4 3 2 1
+```
+
+---
+
 ## 🧠 Concepts Used
 
 | Concept | Used In |
@@ -929,6 +983,8 @@ Input: n=4
 | Spiral/distance logic | spiralnumber |
 | Zigzag traversal | zigzagnumberpattern |
 | Hollow number pyramid | problem11, problem12 |
+| Butterfly number logic | Butterflypatternnumber |
+| Number hourglass logic | numberhourglass4, numberhourglass5 |
 
 ---
 
