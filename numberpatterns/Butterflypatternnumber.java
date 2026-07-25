@@ -1,5 +1,6 @@
 package numberpatterns;
 
+
 import java.util.Scanner;
 
 public class Butterflypatternnumber {
