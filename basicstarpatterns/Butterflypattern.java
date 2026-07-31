@@ -1,4 +1,5 @@
 package basicstarpatterns;
+
 import java.util.Scanner;
 public class Butterflypattern {
     public static void main(String[] args){
