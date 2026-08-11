@@ -1,6 +1,7 @@
-
-
 package numberpatterns;
+
+
+
 import java.util.Scanner;
 public class  zigzagnumberpattern {
     public static void main(String[] args){
