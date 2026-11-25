@@ -1,6 +1,6 @@
 # ⭐ Java Star & Number Pattern Programs
 
-A collection of **56 Java pattern programs** using nested loops, covering rectangles, pyramids, hollow shapes, diamonds, joined shapes, butterfly, sandglass, plus, X patterns, and number patterns.
+A collection of **75 Java pattern programs** using nested loops, covering rectangles, pyramids, hollow shapes, diamonds, joined shapes, butterfly, sandglass, plus, X patterns, number patterns, and hourglass variants.
 
 ---
 
@@ -40,32 +40,52 @@ pattern programs/
 │   ├── Sandglassstarglass.java
 │   ├── pluspattern.java
 │   └── xpattern.java
-└── numberpatterns/
-    ├── numbertriangle.java
-    ├── numberivertedtriangle.java
-    ├── problem1numberdiamod.java
-    ├── problem2.java
-    ├── problem3.java
-    ├── problem4.java
-    ├── problem5.java
-    ├── problem6.java
-    ├── problem7.java
-    ├── problem8.java
-    ├── problem9.java
-    ├── problem10.java
-    ├── problem11.java
-    ├── problem12.java
-    ├── problem13.java
-    ├── problem14.java
-    ├── binarytriangle.java
-    ├── Floydstriangle.java
-    ├── pascalstriangle.java
-    ├── sanakenumberpattern.java
-    ├── spiralnumber.java
-    ├── zigzagnumberpattern.java
-    ├── Butterflypatternnumber.java
-    ├── numberhourglass4.java
-    └── numberhourglass5.java
+├── numberpatterns/
+│   ├── numbertriangle.java
+│   ├── numberivertedtriangle.java
+│   ├── problem1numberdiamod.java
+│   ├── problem2.java
+│   ├── problem3.java
+│   ├── problem4.java
+│   ├── problem5.java
+│   ├── problem6.java
+│   ├── problem7.java
+│   ├── problem8.java
+│   ├── problem9.java
+│   ├── problem10.java
+│   ├── problem11.java
+│   ├── problem12.java
+│   ├── problem13.java
+│   ├── problem14.java
+│   ├── binarytriangle.java
+│   ├── Floydstriangle.java
+│   ├── pascalstriangle.java
+│   ├── sanakenumberpattern.java
+│   ├── spiralnumber.java
+│   ├── zigzagnumberpattern.java
+│   ├── Butterflypatternnumber.java
+│   ├── numberhourglass.java
+│   ├── numberhourglass1.java
+│   ├── numberhourglass2.java
+│   ├── numberhourglass3.java
+│   ├── numberhourglass4.java
+│   └── numberhourglass5.java
+└── Starpattern/
+    ├── p1rectanglepattern.java
+    ├── p2squarepattern.java
+    ├── p3hollowrectangle.java
+    ├── p4hollowsquare.java
+    ├── p5Righthalfpyramid.java
+    ├── p6invertedrighthalfpyramid.java
+    ├── p7lefthalfpyramid.java
+    ├── p8Invertedlefthalgpyramid.java
+    ├── p9fullpyramidwithspace.java
+    ├── p10fullpyramidwithspace.java
+    ├── p11fullpyramidwithnepostive.java
+    ├── p12fullpyramidwithnegative.java
+    ├── p13Invertedfullpyramidwithpositive.java
+    ├── p14Invertedfullpyramidwithnegative.java
+    └── p15Invertedfullpyramidwithnegative.java
 ```
 
 ---
@@ -582,6 +602,165 @@ Input: n=5
 
 ---
 
+## 📘 Starpattern Folder Guide
+
+> The `Starpattern/` folder contains an alternate numbered series (p1–p15) covering the same core shapes with slightly different implementations.
+
+---
+
+### SP-1. Rectangle Pattern
+**File:** `p1rectanglepattern.java` | **Input:** rows `n`, columns `m`
+
+```
+Input: n=3, m=5
+
+ x  x  x  x  x
+ x  x  x  x  x
+ x  x  x  x  x
+```
+
+---
+
+### SP-2. Square Pattern
+**File:** `p2squarepattern.java` | **Input:** size `n`
+
+---
+
+### SP-3. Hollow Rectangle
+**File:** `p3hollowrectangle.java` | **Input:** rows `n`, columns `m`
+
+---
+
+### SP-4. Hollow Square
+**File:** `p4hollowsquare.java` | **Input:** size `n`
+
+---
+
+### SP-5. Right Half Pyramid
+**File:** `p5Righthalfpyramid.java` | **Input:** size `n`
+
+---
+
+### SP-6. Inverted Right Half Pyramid
+**File:** `p6invertedrighthalfpyramid.java` | **Input:** size `n`
+
+---
+
+### SP-7. Left Half Pyramid
+**File:** `p7lefthalfpyramid.java` | **Input:** size `n`
+
+---
+
+### SP-8. Inverted Left Half Pyramid
+**File:** `p8Invertedlefthalgpyramid.java` | **Input:** size `n`
+
+---
+
+### SP-9. Full Pyramid with Space (Ascending)
+**File:** `p9fullpyramidwithspace.java` | **Input:** size `n`
+
+```
+Input: n=5
+
+    *
+   * *
+  * * *
+ * * * *
+* * * * *
+```
+
+---
+
+### SP-10. Full Pyramid with Space (Descending / Inverted)
+**File:** `p10fullpyramidwithspace.java` | **Input:** size `n`
+
+```
+Input: n=5
+
+* * * * *
+ * * * *
+  * * *
+   * *
+    *
+```
+
+---
+
+### SP-11. Full Pyramid (Positive / Odd count)
+**File:** `p11fullpyramidwithnepostive.java` | **Input:** size `n`
+
+```
+Input: n=5
+
+        * * *
+      * * * * *
+    * * * * * * *
+  * * * * * * * * *
+* * * * * * * * * * *
+```
+
+---
+
+### SP-12. Full Pyramid (Negative / Even count)
+**File:** `p12fullpyramidwithnegative.java` | **Input:** size `n`
+
+```
+Input: n=5
+
+        * * *
+      * * * * *
+    * * * * * * *
+  * * * * * * * * *
+* * * * * * * * * * *
+```
+
+---
+
+### SP-13. Inverted Full Pyramid (Positive)
+**File:** `p13Invertedfullpyramidwithpositive.java` | **Input:** size `n`
+
+```
+Input: n=5
+
+* * * * * * * * * * *
+  * * * * * * * * *
+    * * * * * * *
+      * * * * *
+        * * *
+```
+
+---
+
+### SP-14. Inverted Full Pyramid (Negative / Even)
+**File:** `p14Invertedfullpyramidwithnegative.java` | **Input:** size `n`
+
+```
+Input: n=5
+
+* * * * * * * * *
+  * * * * * * *
+    * * * * *
+      * * *
+        *
+```
+
+---
+
+### SP-15. Inverted Full Pyramid (Negative variant)
+**File:** `p15Invertedfullpyramidwithnegative.java` | **Input:** size `n`
+
+```
+Input: n=5
+
+        *
+      * *
+    * * *
+  * * * *
+* * * * *
+```
+
+---
+
 ## 📘 Number Pattern Guide
 
 ---
@@ -925,7 +1104,75 @@ Input: n=4
 
 ---
 
-### 55. Number Hourglass (Descending-Ascending)
+### 55. Star Hourglass (Sandglass)
+**File:** `numberhourglass.java` | **Input:** size `n`
+
+```
+Input: n=4
+
+* * * * * * *
+  * * * * *
+    * * *
+      *
+    * * *
+  * * * * *
+* * * * * * *
+```
+
+---
+
+### 56. Number Hourglass (Same-Row Number)
+**File:** `numberhourglass1.java` | **Input:** size `n`
+
+```
+Input: n=4
+
+3 3 3 3 3 3 3
+  2 2 2 2 2
+    1 1 1
+      0
+    1 1 1
+  2 2 2 2 2
+3 3 3 3 3 3 3
+```
+
+---
+
+### 57. Number Hourglass (Descending then Ascending, mirrored)
+**File:** `numberhourglass2.java` | **Input:** size `n`
+
+```
+Input: n=4
+
+4 3 2 1 1 2 3 4
+  4 3 2 2 3 4
+    4 3 3 4
+      4 4
+    4 3 3 4
+  4 3 2 2 3 4
+4 3 2 1 1 2 3 4
+```
+
+---
+
+### 58. Number Hourglass (Descending-Ascending, no center repeat)
+**File:** `numberhourglass3.java` | **Input:** size `n`
+
+```
+Input: n=4
+
+4 3 2 1 2 3 4
+  4 3 2 3 4
+    4 3 4
+      4
+    4 3 4
+  4 3 2 3 4
+4 3 2 1 2 3 4
+```
+
+---
+
+### 59. Number Hourglass (Descending-Ascending)
 **File:** `numberhourglass4.java` | **Input:** size `n`
 
 ```
@@ -942,7 +1189,7 @@ Input: n=4
 
 ---
 
-### 56. Number Hourglass (Ascending-Descending)
+### 60. Number Hourglass (Ascending-Descending)
 **File:** `numberhourglass5.java` | **Input:** size `n`
 
 ```
@@ -969,9 +1216,9 @@ Input: n=4
 | Hollow border logic | Hollow Square/Rectangle/Pyramid/Diamond/Butterfly |
 | Odd/Even star count | Full & Inverted Pyramids |
 | Diamond shape logic | Diamond, Hollow Diamond, Cross Diamond |
-| Joined shape logic | jion, jionplus, jiontshape, jiontwotringlwithonelin |
+| Joined shape logic | jion, jionplus, jiontshape, jiontwotringlewithonelin |
 | Butterfly logic | Butterflypattern, Hollowbutterflypattern |
-| Sandglass logic | Sandglassstarglass |
+| Sandglass logic | Sandglassstarglass, numberhourglass |
 | Grid condition logic | pluspattern, xpattern |
 | Number sequences | All numberpatterns |
 | Continuous counters | problem4 |
@@ -984,7 +1231,8 @@ Input: n=4
 | Zigzag traversal | zigzagnumberpattern |
 | Hollow number pyramid | problem11, problem12 |
 | Butterfly number logic | Butterflypatternnumber |
-| Number hourglass logic | numberhourglass4, numberhourglass5 |
+| Number hourglass logic | numberhourglass, numberhourglass1–5 |
+| Alternate implementations | Starpattern/ (p1–p15) |
 
 ---
 
